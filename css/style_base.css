@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 *{
     box-sizing: border-box;
@@ -27,8 +27,6 @@ header .logo {
     margin-top: 20px;
     margin-left: 20px;
 }
-
-/** Menu principal */
 nav ul {
     display: flex; 
     justify-content: center;
@@ -43,7 +41,6 @@ nav ul li a{
     font-size:25px;  
     color:var(--secondary-color);
     text-decoration: none; 
-      
 }
 
 nav ul li a::before{
@@ -52,7 +49,6 @@ nav ul li a::before{
     position:absolute;
     bottom:-10px;
     height:5px;
-    /*dica: width iniciando em 0 e aplicação de uma transição*/
     width: 0;
     transition:  width 1s;
   }
@@ -61,8 +57,6 @@ nav ul li a::before{
     width: 100%;
   }
   
-
-/* Barra redes sociais*/
 .social {
 	position: fixed; 
 	left: 0; 
@@ -79,7 +73,6 @@ nav ul li a::before{
     background: var(--primary-color);
     padding: 10px 15px;
     text-decoration: none;
-    /* transition: ; */
 }
 
 .social ul li .icon-facebook {background:#3b5998;} 
@@ -89,12 +82,9 @@ nav ul li a::before{
 .social ul li .icon-mail {background: #666666;}
 
 .social ul li a:hover{
-    /* transform: ; */
+   background-color: #000;
     transform:scaleX(1.4);
 }
-
-
-  /* Conteudo */
 .container{
     width: 80%;
     margin: 5% auto;
@@ -112,11 +102,11 @@ nav ul li a::before{
     padding: 15px;
     margin-top: 15px;
 }
+
 .container a:hover{
     color:var(--decoration-color);
 }
- 
-/* spinner| */
+
 .spinner{
     width: 64px;
     height: 64px;
@@ -139,6 +129,3 @@ nav ul li a::before{
     from {transform:rotate(0deg);}
     to {transform:rotate(360deg);}
  }
-/* keyframes    
-    crie a animação com a rotação do tempo 0 ao tempo 100
- */
