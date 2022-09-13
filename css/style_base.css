@@ -84,6 +84,7 @@ nav ul li a::before{
 .social ul li a:hover{
    background-color: #000;
     transform:scaleX(1.4);
+    background-color: #000;
 }
 .container{
     width: 80%;
